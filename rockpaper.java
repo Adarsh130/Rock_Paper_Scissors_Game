@@ -24,18 +24,18 @@ public class rockpaper {
                 System.out.println("\nGame Over!");
                 System.out.println("Final Score -> You: " + userScore + " | Computer: " + computerScore);
                 if (userScore > computerScore) {
-                    System.out.println("🎉 You win the match!");
+                    System.out.println("You win the match!");
                 } else if (userScore < computerScore) {
-                    System.out.println("💻 Computer wins the match!");
+                    System.out.println("Computer wins the match!");
                 } else {
-                    System.out.println("🤝 It's a tie overall!");
+                    System.out.println("It's a tie overall!");
                 }
                 break;
             }
 
             // Validate input
             if (!(userChoice.equals("rock") || userChoice.equals("paper") || userChoice.equals("scissors"))) {
-                System.out.println("❌ Invalid choice! Try again.\n");
+                System.out.println("Invalid choice! Try again.\n");
                 continue;
             }
 
@@ -51,10 +51,10 @@ public class rockpaper {
                             (userChoice.equals("paper") && computerChoice.equals("rock")) ||
                             (userChoice.equals("scissors") && computerChoice.equals("paper"))
             ) {
-                System.out.println("✅ You win this round!\n");
+                System.out.println("You win this round!\n");
                 userScore++;
             } else {
-                System.out.println("❌ You lose this round!\n");
+                System.out.println(" You lose this round!\n");
                 computerScore++;
             }
 
