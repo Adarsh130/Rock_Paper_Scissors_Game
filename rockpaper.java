@@ -11,7 +11,7 @@ public class rockpaper {
         int computerScore = 0;
         String[] choices = {"rock", "paper", "scissors"};
 
-        System.out.println("🎮 Welcome to Rock-Paper-Scissors!");
+        System.out.println("Welcome to Rock-Paper-Scissors!");
         System.out.println("Type 'exit' anytime to quit.\n");
 
         while (true) {
